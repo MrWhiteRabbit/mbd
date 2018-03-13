@@ -4,14 +4,13 @@
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
         <link rel="stylesheet" href="{% static 'css/blog.css' %}">
+        <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet"> 
         <link href="https://fonts.googleapis.com/css?family=Lobster&subset=latin,cyrillic" rel="stylesheet" type="text/css">
     </head>
     <body>
         <nav class='navbar navbar-default bg-dark'>
             <a class="navbar-brand" href="#">OurLoft</a>  
-           
-           
-        </nav>
+         </nav>
     <div class='col-lg-12 col-md-6 col-md-offset-6'>
         <div class="content container">
             <div class="row">
@@ -21,7 +20,7 @@
                             <div class="date">
                                 <p>Опубликовано: {{ post.published_date }}</p>
                             </div>
-                            <h1><a href="">{{ post.title }}</a></h1>
+                            <h2><a href="">{{ post.title }}</a></h2>
                             <p>{{ post.text|linebreaksbr }}</p>
                         </div>
                     {% endfor %}
@@ -30,7 +29,7 @@
         </div>
     </div>
         <nav class='navbar navbar-default navbar-bottom'>
-            <div class='footer'>Сделано для фана. :)</div>
+            <div class='footer'>Сделано для фана и изучения Python и Django. :)</div>
         </nav>
     </body>
 </html>
