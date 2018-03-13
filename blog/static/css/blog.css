@@ -40,7 +40,7 @@ body{
 
 .menu-top ul{
     display:flex;
-
+    
 }
 
 .menu-top li {
@@ -48,6 +48,7 @@ body{
     padding-right: 15px;
     padding-left: 15px;
     border-right: 1px solid darkgray; 
+    
 }
 
 .menu-top a{
