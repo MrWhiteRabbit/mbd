@@ -1,4 +1,12 @@
 <html>
     <p>Hi there!</p>
     <p>It works!</p>
+    <div>
+
+        {% for post in posts %}
+            <p>Опубликовано: {{ post.published_date }}</p>
+            <h3><a href="">{{ post.title }}</a></h3>
+            <p>{{ post.text|linebreaksbr }}</p>
+        {% endfor %}
+    </div>
 </html>
