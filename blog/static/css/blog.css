@@ -1,56 +1,88 @@
-.navbar-brand {
-    font-family: 'Raleway'
+body{
+    background-color: white;
+    font-family: 'Roboto';
+    height: 90%;
+    margin:0;
+    padding:0;
+
+}
+.navbar{
+    margin: 0 60px;
+    position: relative;
+    height:30px;
+    width:100%;
+    background-color: gray;
+    margin:0;
+    padding-left: 15px;
+    padding-top: 15px;
+    
 }
 
-
-.page-header {
-    background-color: #FF9400;
-    margin-top: 0;
-    padding: 20px 20px 20px 40px;
-}
-
-.page-header h1, .page-header h1 a, .page-header h1 a:visited, .page-header h1 a:active {
-    color: #ffffff;
-    font-size: 36pt;
+.header-logo {
     text-decoration: none;
+    color: white;
+    padding-right: 15px;
+    border-right: 1px solid darkgray;
+    float: left;
 }
 
-.content {
-    margin-left: 40px;
+.menu-top{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    text-decoration: none;
+    padding-left:15px;
 }
 
-h1, h2, h3, h4 {
-    font-family: 'Arial', cursive;
+.menu-top ul{
+    display:flex;
+
 }
 
-.date {
-    color: #828282;
+.menu-top li {
+    display: inline-block;
+    padding-right: 15px;
+    
 }
 
-.save {
-    float: right;
+.menu-top li:first-child {
+    
+    padding-left: 15px;
+    
 }
 
-.post-form textarea, .post-form input {
-    width: 100%;
+.menu-top a{
+    display: inline-block;
+    text-decoration: none;
+    list-style: none;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: white;
 }
 
-.top-menu, .top-menu:hover, .top-menu:visited {
-    color: #ffffff;
-    float: right;
-    font-size: 26pt;
-    margin-right: 20px;
+.menu-top a:hover{
+    text-decoration: none;
+    list-style: none;
+    background-color: lightgray;
 }
 
-.post {
-    margin-bottom: 70px;
+.main-body {
+    margin-left: 15px;
 }
 
-.post h2 a, .post h2 a:visited {
-    color: #000000;
-}
-.footer {
+.footer{ 
+    height:30px;
+    width:100%;
+    background-color: gray;
+    margin:0; 
+    font-size: 12px; 
+    color: lightgray; 
     vertical-align: middle;
-    font-size: 10px;
-    color: #ccccaa;
+    padding-left: 15px;
+    padding-top: 15px;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
 }
+
